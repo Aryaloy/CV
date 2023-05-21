@@ -1,0 +1,172 @@
+<!--
+<!DOCTYPE html> Tells us the type of document is HTML 5
+<html lang="en"> Sets language to English
+<head>
+    <meta charset="UTF-8"> Sets character to utf-8 or UNICODE
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> Look up Meta tag on W3Schools
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+-->
+<html>
+    <!-- Type "!" + Return to get the above html file template ready to-go
+    
+    -->
+
+  <head>
+    <title>Not my First Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- the "/" in the end is an alternative for the ending tag
+    And this is an example of External CSS-->
+    <style>
+      h4 {
+        color: red;
+      }
+    </style>
+    <!-- This is called Internal CSS-->
+  </head>
+
+  <body>
+    <h1 style="color: red;">This is H1</h1>
+    <!-- Above is an example of in-line CSS-->
+    <h2>This is H2</h2>
+    <h3>This is H3</h3>
+    <h4>This is H4</h4>
+    <h5>This is H5</h5>
+    <h6>This is H6</h6>
+    <p>This is a paragraph</p>
+    <!--
+        This is a Comment
+        <ol> tag attributes:
+            type="a or A or i or I or 1"
+            start="2 or 50"
+            reversed
+    -->
+    <ol type="a">
+      <li>Onion</li>
+      <li>Toothpaste</li>
+      <li>Pen</li>
+    </ol>
+    <!--
+        <ul> tag attributes:
+            style="list-style-type:circle or square or disc" 
+            (This is a CSS property)
+            type="square or circle etc"
+    -->
+    <ul style="list-style-type: square;">
+      <li>Aryan</li>
+      <li>Simar</li>
+      <li>Ananye</li>
+    </ul>
+    <ul type="square">
+      <li>Aryan</li>
+      <li>Piyush</li>
+      <li>Kartikey</li>
+    </ul>
+    <img
+      src="https://thumbs.dreamstime.com/b/white-duck-lake-61243843.jpg"
+      alt="A duck"
+    />
+    <form action="/Progress.html" method="post">
+      <input type="text" name="n1" placeholder="Number 1" />
+      <input type="text" name="n2" placeholder="Number 2" />
+      <button type="submit" name="submit">Calculate</button>
+    </form>
+    <!--
+        ./ means The img is in the same folder as this script
+        alt is Alternate text in case the image is not displayed 
+        width="42" height="42" 
+        style="vertical-align:bottom"
+        style="float:right"
+        style="border:5px solid black"
+    
+    
+    
+    
+    The <div> tag defines a division or a section in an HTML document.
+    The <div> tag is used as a container for HTML elements - which is
+    then styled with CSS or manipulated with JavaScript.  
+  
+    width=50% means width is 50% of the parent element
+    width=50vw means width is 50% of the body tag irrespective of the parent tag
+  
+    p{
+    font-size: 2em;
+    }
+    means the font-size becomes twice the original font-size
+
+    -->
+    <p class="odd">This is p1</p>
+    <p class="even">This is p2</p>
+    <p class="odd">This is p3</p>
+    <p class="even" id="Aryan">This is p4</p>
+    <p class="odd">This is p5</p>
+    <p class="even">This is p6</p>
+    <hr size="3" noshade />
+    <form>
+      HTML Label tag<br />
+      <label>
+        Male
+        <input type="radio" name="gender" value="Male" id="Male" />
+      </label>
+      <br />
+      <label>
+        Female
+        <input type="radio" name="gender" value="Female" id="Female" />
+      </label>
+    </form>
+    <strong>The Strong tag</strong><br>
+    <b>The B tag</b><br>
+    Both make text bold but we prefer Strong tag instead.
+    The difference? Strong is a logical state. Bold is merely a physical state.<br>
+    <i>The I tag</i><br>
+    <em>The EM tag</em><br>
+    Again, both do the same work(italicize) but we prefer the 'emphasize' tag.<br>
+
+    <a href="https://www.google.com/">Google.com</a>
+    <table cellspacing="10">
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Education</th>
+            </tr>    
+        </thead>
+        <tbody>
+            <tr>
+                <td>2008-2020</td>
+                <td>Apeejay School, Sector-15, Faridabad</td>
+            </tr>
+            <tr>
+                <td>2020-2022</td>
+                <td>MVN, Sector-17, Faridabad</td>
+            </tr>
+        </tbody>
+    </table>
+    <form>
+        <label>Wanna be my friend? </label>
+        <input type="checkbox">
+        <br>
+        <label>Your favorite color: </label>
+        <input type="color"><br>
+        <label>Password:</label>
+        <input type="password"><br>
+        <input type="file"><br>
+        <input type="range"><br>
+        <input type="Date"><br>
+    </form>
+
+    <form action="mailto:aryan.budhiraja@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name: </label>
+        <input type="text" name="yourName"><br>
+        <label>Your E-mail: </label>
+        <input type="email" name="yourEmail"><br>
+        <label>Your Message: </label><br>
+        <textarea name="name" cols="30" rows="10" name="yourMessage"></textarea><br>
+        <input type="submit"><br>
+    </form>
+  </body>
+</html>
